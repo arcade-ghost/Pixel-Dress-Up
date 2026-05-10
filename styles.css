@@ -116,3 +116,73 @@ h1{
   border-color: #7b5ea7;
   background-color: #d4bfff;
 }
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  html, body {
+    overflow: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px auto;
+  }
+
+  #playArea {
+    height: calc(100vh - 70px);
+  }
+
+  #doll {
+    width: calc(100vh * (81 / 121) - 70px * (81 / 121));
+  }
+
+  #menu {
+    height: calc(100vh - 80px);
+  }
+
+  .tab {
+    font-size: 7px;
+    padding: 4px 8px;
+  }
+}
+
+@media (orientation: portrait) {
+  html, body {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 8px auto;
+  }
+
+  #playArea {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+  }
+
+  #doll {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 81 / 121;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  #menu {
+    width: 100%;
+    height: auto;
+  }
+
+  #itemGrid {
+    overflow-y: visible;
+    max-height: none;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  }
+  #tabBar {
+    justify-content: center;
+  }
+}
