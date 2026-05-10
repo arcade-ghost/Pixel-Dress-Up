@@ -116,3 +116,22 @@ h1{
   border-color: #7b5ea7;
   background-color: #d4bfff;
 }
+
+@media (max-width: 768px) {
+  #playArea {
+    flex-direction: column;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  #doll {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #menu {
+    width: 100%;
+    height: 60vh;
+  }
+}
