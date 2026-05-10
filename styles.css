@@ -117,3 +117,27 @@ h1{
   background-color: #d4bfff;
 }
 
+@media (orientation: landscape) and (max-width: 1024px) {
+  h1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px auto;
+  }
+
+  #playArea {
+    height: calc(100vh - 70px);
+  }
+
+  #doll {
+    width: calc(100vh * (81 / 121) - 70px * (81 / 121));
+  }
+
+  #menu {
+    height: calc(100vh - 80px);
+  }
+
+  .tab {
+    font-size: 7px;
+    padding: 4px 8px;
+  }
+}
