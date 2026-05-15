@@ -16,13 +16,13 @@ const layers = [
   { id: "eyelashes", src: "Assets/Eyes/Eyelashes.png", z: 6 },
   { id: "shoe", src: "", z: 7 },
   { id: "bottom", src: "", z: 8 },
-  { id: "top1", src: "", z: 9 },
-  { id: "top2", src: "", z: 10 },
-  { id: "dress", src: "", z: 11 },
-  { id: "belt", src: "", z: 12 },
-  { id: "jacket", src: "", z: 13 },
-  { id: "necklace", src: "", z: 14 },
-  { id: "hair", src: "Assets/Hair/Wavy/Wavy4.png", z: 15 },
+  { id: "hair", src: "Assets/Hair/Wavy/Wavy4.png", z: 9 },
+  { id: "top1", src: "", z: 10 },
+  { id: "top2", src: "", z: 11 },
+  { id: "dress", src: "", z: 12 },
+  { id: "belt", src: "", z: 13 },
+  { id: "jacket", src: "", z: 14 },
+  { id: "necklace", src: "", z: 15 },
   { id: "headband", src: "", z: 16 }
 ];
 
